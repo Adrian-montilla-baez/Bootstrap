@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+body, html{
+    overflow-x: auto;
+    scroll-behavior: smooth;
+
+}
+.container-menu{
+    border-bottom: 1px solid #f4f0f0;
+}
+.container__center-menu{
+    max-width: 1200px;
+    position: relative;
+    margin: 0px auto;
+}
+
+nav a.nav-link{
+    font-weight: bold;
+}
+nav a.navbar-brand{
+    font-weight: bold;
+    color: rgb(69, 66, 66);
+}
+.separar{
+    margin-top: 30px;
+}
+.form__container-r{
+    padding: 15px;
+}
+.container__cards-card{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+.container__cards-card .card{
+    width: 33%;
+    height: auto;
+}
+.container__cards-card .card .line{
+    border-bottom: 1px solid #f4f0f0;
+}
+.acordion-main{
+    padding: 15px;
+}
+/*--- jumbotron ---*/
+.container__jumbo-tron{
+    padding: 15px;
+    border: 1px solid #f9f7f7;
+    border-radius: 5px;
+    background-color: #fdfdfd;
+}
+.title{
+    font-weight: bold;
+    padding: 10px 0px;
+    color: rgb(69, 66, 66);
+    font-size: 2.1em;
+}
+.sub-title{
+    color: rgb(69, 66, 66);
+    display: block;
+    padding-bottom: 18px;
+    border-bottom: 1px solid #e3dddd;
+    font-size: .9em;
+}
+.text{
+    color: rgb(69, 66, 66);
+    padding-top: 18px;
+}
+.form-text{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #f3eeee;
+    margin-bottom: 15px;
+}
+.ll{
+    margin-bottom: 15px;
+}
+.btn-line{
+    margin-bottom: 10px;
+}
+.m-p{
+    margin-top: 10px;
+}
+/*--- Medias querys ---*/
+@media screen and (max-width: 920px) {
+    .container__cards-card .card{
+      width: 50%;
+      margin-bottom: 20px;
+    }
+  }
+  @media screen and (max-width: 620px) {
+    .container__cards-card .card{
+      width: 100%;
+    }
+  }
